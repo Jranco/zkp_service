@@ -15,7 +15,7 @@ from django.urls import path
 from FiatShamir.WebsocketConsumers.VerificationWSConsumer import VerificationWSConsumer
 from FiatShamir.WebsocketConsumers.BindingWSConsumer import BindingWSConsumer
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'zkp_service.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demo.settings')
 
 # application = get_asgi_application()
 
